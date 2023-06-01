@@ -13,36 +13,31 @@
     color: black;
 }
 
-#menu li a:hover {
-    border-style: double;
-
-}
-
 #container {
     height: 900px;
     width: 100%;
     background-color: blue;
     display: flex;
     flex-direction: row;
-    /* justify-content: space-between; */
+    justify-content: space-evenly;
 }
 
 #col-1 {
     background-color: red;
     height: 100%;
-    flex: 33%;
+    width: 20%;
 }
 
 #col-2 {
     background-color: green;
     height: 100%;
-    flex: 33%;
+    width: 20%;
 }
 
 #col-3 {
     background-color: yellow;
     height: 100%;
-    flex: 33%;
+    width: 20%;
 }
 
 /* för skärmar från 1050px och ner */
@@ -50,8 +45,20 @@
     #container {
         height: 1500px;
         display: flex;
-        flex-direction: column;
+        flex-direction: column; 
 
+    }
+
+    #col-1 {
+        width: 100%;
+    }
+    
+    #col-2 {
+        width: 100%;
+    }
+    
+    #col-3 {
+        width: 100%;
     }
 
 }
