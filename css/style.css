@@ -1,0 +1,37 @@
+#container {
+    height: 900px;
+    width: 100%;
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#col-1 {
+    background-color: red;
+    height: 100%;
+    flex: 33%;
+}
+
+#col-2 {
+    background-color: green;
+    height: 100%;
+    flex: 33%;
+}
+
+#col-3 {
+    background-color: yellow;
+    height: 100%;
+    flex: 33%;
+}
+
+/* för skärmar från 1050px och ner */
+@media screen and (max-width: 1050px) {
+    #container {
+        height: 1500px;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+}
