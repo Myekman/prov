@@ -10,35 +10,41 @@
 </head>
 <body>
     <header>
-        <nav>
-            <div class = "container">
-                <div class = "row">
-                    <div class = "col-6">
-                        <h1 class="heading">Studio Ceramics</h1>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+              <a class="navbar-brand" href="#"><h1 class="heading">Studio Ceramics</h1></a>
+              <ul id="menu">
+                <li>
+                    <a href="index.html">
+                    <p class="nav-link prov">Hem</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="bootstrap.html">
+                        <p class="nav-link prov">Boka</p>
+                    </a> 
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      My Account
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#">Register</a>
+                      <a class="dropdown-item" href="#">Login</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">My Bookings</a>
                     </div>
-                    <div class = "col-6">
-                        <ul id="menu">
-                            <li>
-                                <a href="index.html">
-                                <p class="prov">Hem</p>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="bootstrap.html">
-                                    <p class="prov">Boka</p>
-                                </a> 
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </nav>
+                  </li>
+            </ul>
+            </nav>
+          </div>
+
         <div id="header-image">
                 <div class="jumbotron jumbotron-fluid text-center">
                     <h1 class="display-7">Let the creativity flow!</h1>
                     <p class="lead">Studio ceramics is a..... for members. 
-                    <p>Register to book a session</p>
-                    <a class="btn btn-primary btn-lg button-style" href="#" role="button">Learn more</a>
+                    <p>Register or Login to book a session</p>
+                    <a class="btn btn-primary btn-lg button-style" href="#" role="button">Register/Login</a>
               </div>
         </div>
     </header>
@@ -46,10 +52,10 @@
     <div class = "container px-4 how-it-works-container">
         <p class="text-center how-it-works-heading">How it works:</p>
         <div class="row gx-5">
-            <div class = "col-12 col-md-3 how-it-works p-4 border bg-light"></div>
-            <div class = "col-12 col-md-3 how-it-works p-4 border bg-light"></div>
-            <div class = "col-12 col-md-3 how-it-works p-4 border bg-light"></div>
-            <div class = "col-12 col-md-3 how-it-works p-4 border bg-light"></div>
+            <div class = "col-12 col-md-3 how-it-works p-5 border bg-light"><p>Step 1</p></div>
+            <div class = "col-12 col-md-3 how-it-works p-5 border bg-light"><p>Step 2</p></div>
+            <div class = "col-12 col-md-3 how-it-works p-5 border bg-light"><p>Step 3</p></div>
+            <div class = "col-12 col-md-3 how-it-works p-5 border bg-light"><p>Step 4</p></div>
         </div>
     </div>
 
