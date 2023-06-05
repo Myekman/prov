@@ -30,6 +30,28 @@ body {
     font-size: 15px;
 }
 
+#header-image {
+    background: url(../css/images/header-image2.jpg) no-repeat;
+    background-position: bottom;
+    opacity: 0.7;
+    height: 800px;
+}
+
+
+.info-box {
+    background-color: #1F4167;
+    height: 200px;
+    opacity: 0.7;
+
+}
+
+.info-box p {
+    color: #ffffff;
+    /* display: flex;
+    justify-content: center;
+    text-align: center; */
+}
+
 
 /* index.html style */
 
